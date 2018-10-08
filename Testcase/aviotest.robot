@@ -31,14 +31,40 @@ Close Browser window
 
 Enter Reach Manager
     Click Link  (//a)[1]
-    Input Text  id:topsearch  hello First part
-    Click Link  (//a)[11]
+    Input Text  id:topsearch  hello Reach Manager part
+    Click Element  xpath://*[contains(text(),"search")]
+
+    Click Link  //*[@href="sinottico-prodotti.html"]
+    Obsoleta in attesa validata tutte
+    Click Link  //*[@href="sostanze.html"]
+    Daleggere davalidare tutti
+    Click Link  //*[@href="index_gennaro.html"]
+    Daleggere davalidare tutti
+    Click Link  //*[@href="aggiornamento-schede.html"]
+    Daleggere davalidare tutti
+    Click Link  //*[@href="fornitori.html"]
+    Daleggere davalidare tutti
+    Click Link  //*[@href="index_gennaro.html"]
+    Daleggere davalidare tutti
+    Input Text  id:icon_prefix  Aviochem
+    Click Element  xpath://*[contains(text(),"cerca")]
     Click Element  class:dropdown-trigger
     Click Element  id:dropdown1
 
 
 Enter Procurement
     Click Link  (//a)[2]
-    Input Text  id:topsearch  hello Second part
+    Input Text  id:topsearch  hello Procurement part
     Click Element  class:dropdown-trigger
     Click Element  id:dropdown1
+
+Daleggere davalidare tutti
+    Click Element  xpath://*[contains(text(),"Da leggere")]
+    Click Element  xpath://*[contains(text(),"Da validare")]
+    Click Element  xpath://*[contains(text(),"Tutte")]
+
+Obsoleta in attesa validata tutte
+    Click Element  xpath://*[contains(text(),"Obsoleta")]
+    Click Element  xpath://*[contains(text(),"In attesa di validazione")]
+    Click Element  xpath://*[contains(text(),"Validata")]
+    Click Element  xpath://*[contains(text(),"Tutte")]
