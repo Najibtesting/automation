@@ -21,8 +21,8 @@ Start browser
     [Arguments]  ${URL}  ${Browser}
     Open Browser  ${URL}  ${Browser}
     Maximize browser window
-    Enter Reach Manager  #first part
-    Enter Procurement  #second part
+    Enter Reach Manager
+    Enter Procurement
     Close Browser window
 
 
