@@ -22,10 +22,10 @@ First test case
 Start browser
     [Arguments]  ${URL}  ${Browser}
     Open Browser  ${URL}  ${Browser}
-    #Maximize browser window
+    Maximize browser window
     Enter Reach Manager
     Sleep  5
-    #Enter Procurement
+    #Enter Procurement (second part just to check another test)
     Close Browser window
 
 
