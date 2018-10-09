@@ -2,7 +2,6 @@
 Library  Selenium2Library
 #Resource  ../Externalkeywords/userkeywords.py
 
-#nex tinme i will try something else
 #Test Setup  Start browser  ${URL}  ${Browser}
 #Test Teardown  Close Browser window
 
