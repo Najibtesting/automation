@@ -22,9 +22,10 @@ First test case
 Start browser
     [Arguments]  ${URL}  ${Browser}
     Open Browser  ${URL}  ${Browser}
-    Maximize browser window
+    #Maximize browser window
     Enter Reach Manager
-    Enter Procurement
+    Sleep  5
+    #Enter Procurement
     Close Browser window
 
 
@@ -50,7 +51,9 @@ Enter Reach Manager
     Daleggere davalidare tutti
     Input Text  id:icon_prefix  Aviochem
     Click Element  xpath://*[contains(text(),"cerca")]
+    #sleep  10
     Click Element  class:dropdown-trigger
+    sleep  4
     Click Element  id:dropdown1
 
 
