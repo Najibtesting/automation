@@ -25,7 +25,7 @@ Start browser
     Maximize browser window
     Enter Reach Manager
     Sleep  5
-    #Enter Procurement (second part just to check another test)
+    Enter Procurement  #(second part just to check another test)
     Close Browser window
 
 
