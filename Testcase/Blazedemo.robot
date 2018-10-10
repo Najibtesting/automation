@@ -10,4 +10,7 @@ The user can search for flights
     Click Button    css:input[type='submit']
     @{flights}=  Get WebElements    css:table[class='table']>tbody tr
     Should Not Be Empty     ${flights}
+    Sleep  4
+    Go back
+    #log  ${flights}
     #Close All Browsers
